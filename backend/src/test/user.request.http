@@ -1,0 +1,38 @@
+//login
+POST http://localhost:8000/api/auth/login
+Content-Type:application/json
+
+{
+    "email":"csdl@gmail.com",
+    "password":"123456"
+}
+
+### //getUser + token + admin
+GET http://localhost:8000/api/users/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI4MzEyMTUsImV4cCI6MTY0MjgzMTI3NX0.RhNttkA5ZTH_KoZTzUoxlOLuUYDHjsFeCaTmG6L71dY
+
+
+### // getUser profile + token 
+GET http://localhost:8000/api/users/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNCwiY2FydF9pZCI6NiwiaWF0IjoxNjQxMDI5MzY3LCJleHAiOjE2NDEwMjk0Mjd9._MgVzUFNm12_Z97hhgjvFdyDsVRhHD_FdZ7SC0b8_A8
+
+
+### //delete user 
+DELETE http://localhost:8000/api/users/9
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNCwiY2FydF9pZCI6NiwiaWF0IjoxNjQxMDI5ODMyLCJleHAiOjE2NDEwMjk4OTJ9.QYpWBYXaqAotxWrkdBpyFAyKejokz46Y79u5mrlJGvo
+
+### //update user
+PUT http://localhost:8000/api/users/2
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI1MTQ5NjgsImV4cCI6MTY0MjUxNTAyOH0.d1bciJNG_-pXIYu-bvqwAu_AA4zicdX0uro6-4H8SJU
+
+{
+     "user_name":"hahahaha",
+    "email":"hahaa@gmail.com" , 
+    "password":"123456", 
+    "gender":"nam", 
+    "birthday":"2001-4-28",
+    "phone_number":"01231241241",
+    "address":"so 1 dai co viet - ha noi",
+    "user_avatar":"avatarTest.png"
+}

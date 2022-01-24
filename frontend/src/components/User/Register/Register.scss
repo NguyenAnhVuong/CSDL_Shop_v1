@@ -1,0 +1,75 @@
+@import '../../../style/variable.scss';
+
+
+.wrapbox-heading-account .header-page .h1_register {
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: initial;
+    color: #d61114;
+    text-align: center;
+}
+
+.clearfix.large_form{
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.err-message {
+    color: #D61114;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 330px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.charactor-error{
+    position: absolute;
+    // top:12px;
+    padding-right: 250px;
+    margin-top: 20px;
+    left: 330px;
+    color: #D61114;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.large-margin{
+    padding: 2px 6px 6px 0;
+}
+
+.userbox input[type=checkbox] {
+    margin: 4px 10px;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 120px;
+}
+.userbox input[type=text] ,  .userbox input[type=date]{
+    width: 42%;
+    height: 55px;
+    border: 1px solid transparent;
+    background: #ededed;
+    color: #080808;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.come-back {
+    margin-top: 35px;
+    display: block;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-right: 300px;
+}
+.large_form label {
+    margin-right: 10px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+}
+#gender {
+    padding-right: 335px;
+}
+#register{
+    margin-right: 320px;
+}

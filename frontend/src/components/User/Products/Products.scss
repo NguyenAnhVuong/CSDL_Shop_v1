@@ -1,0 +1,58 @@
+@import '../../../style/variable.scss';
+
+.slider-products {
+    margin-top: var(--header-height);
+    background-image: url("../../../../public/images/products.png");
+    padding-top: 24%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: $header-height;
+}
+.product-title-container {
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.product-title-container.products {
+    margin-top: 12px;
+}
+
+.product-title-container .product-title {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #D61114;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.product-title-container .product-title.products {
+    font-size: 2.7rem;
+    text-transform: inherit;
+}
+
+.product-title-container .product-title-description{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.item {
+    margin: 16px 0;
+}
+
+.item .product-img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item .product-infor {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.product-infor .product-name {
+    padding-bottom: 12px;
+}

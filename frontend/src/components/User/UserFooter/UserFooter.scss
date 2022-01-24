@@ -1,0 +1,70 @@
+@import '../../../style/variable.scss';
+
+.footer {
+    background: #232323;
+    color: $white-color;
+    padding-top: 40px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.footer .footer__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer .footer__description {
+    color: #979597;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+.footer__description .fanpage {
+    padding-top: 50%;
+    background-size: contain;
+    width: 270px;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("../../../../public/images/bk.jpg");
+    position: relative;
+}
+
+.footer .big-logo {
+    width: 330px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../../../public/images/footer-logo.png");
+}
+
+.fanpage .avatar {
+    width: 50px;
+    padding-top: 44px;
+    border: 3px solid $white-color;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-image: url("../../../../public/images/ictsv.jpg");
+}
+
+.fanpage-name {
+    color: $white-color;
+    font-weight: 500;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 16px;
+    left: 68px;
+}
+
+.liked {
+    width: 64px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 98px;
+    left: 12px;
+    background-image: url("../../../../public/images/liked.png");
+}

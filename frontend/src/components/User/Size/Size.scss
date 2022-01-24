@@ -1,0 +1,94 @@
+@import '../../../style/variable.scss';
+.size{
+    margin-top: calc(#{$header-height} + 80px);
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    .title {
+        color: $primary-color;
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+    .tutorial-title{
+        margin: 20px 0;
+    }
+    .size-type {
+        color: #E67E53;
+        font-size: 2rem;
+        margin: 40px 0;
+    }
+    .note{
+        margin: 20px 0;
+
+    }
+    .product-type{
+        margin: 16px 0;
+        .index{
+            color: #E67E53;
+
+        }
+    }
+    .size-table {
+        width: 1025px;
+        padding-top: 41.7%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        &.tee-table{
+            background-image: url("../../../../public/images/size_tee.png");
+        }
+        &.somi{
+            background-image: url("../../../../public/images/size_somi.png");
+        }
+        &.hoodie{
+            background-image: url("../../../../public/images/size_hoodie.png");
+        }
+        &.sweater{
+            background-image: url("../../../../public/images/size_sweater.png");
+        }
+        &.ziphoodie{
+            background-image: url("../../../../public/images/size_ziphoodie.png");
+
+        }
+        &.ziphoodie{
+            background-image: url("../../../../public/images/size_ziphoodie.png");
+
+        }
+        &.polo{
+            background-image: url("../../../../public/images/size_polo.png");
+            
+        }
+        &.jacket{
+            background-image: url("../../../../public/images/size_jacket.png");
+
+        }
+        &.tsunshort{
+            background-image: url("../../../../public/images/size_tsunshort.png");
+
+        }
+        &.terryshort{
+            background-image: url("../../../../public/images/size_tsunshort.png");
+        }
+        &.mascotshort{
+            background-image: url("../../../../public/images/size_mascotshort.png");
+        }
+        &.sweatpants{
+            background-image: url("../../../../public/images/size_tsunshort.png");
+        }
+        &.trouserspants{
+            background-image: url("../../../../public/images/size_trouserspants.png");
+        }
+        &.reflectivepant{
+            background-image: url("../../../../public/images/size_reflectivepant.png");
+        }
+    }
+    .foot-note{
+        text-align: left;
+        .foot-note-title{
+            color: #E67E53;
+
+        }
+        p{
+            margin: 20px;
+        }
+    }
+}

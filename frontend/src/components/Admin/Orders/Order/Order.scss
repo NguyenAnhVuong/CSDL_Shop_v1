@@ -1,0 +1,7 @@
+.info-button{
+    background-color: white;
+    border: transparent;
+    &:focus{
+        border: transparent;
+    }
+}

@@ -1,0 +1,58 @@
+
+
+//login
+POST http://localhost:8000/api/auth/login
+Content-Type:application/json
+
+{
+    "email":"csdl@gmail.com",
+    "password":"123456"
+}
+
+
+
+### // create order
+POST http://localhost:8000/api/orders/create
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI4MjY0MDcsImV4cCI6MTY0MjgyNjQ2N30.VW_LaNauA42TeZm53GQ_LL1xVzWtb25oNOCyTOf6zHY
+
+{
+    "user_name":"Dao Ngoc Ban",
+    "email":"daongocban1102@gmail.com",
+    "address":"So 1 Dai Co Viet Ha Noi",
+    "phone_number":"021342134131",
+    "note" : "mua cho vui"
+}
+
+### // get All order
+GET http://localhost:8000/api/orders/all
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI0MzE5NzksImV4cCI6MTY0MjQzMjAzOX0.gmcA4bcIRayQeuClDcz4EUQEvmjv2ZjKZTj8JLqg2tc
+
+
+
+### // get All order by user
+GET http://localhost:8000/api/orders/
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI0MzA0MTMsImV4cCI6MTY0MjQzMDQ3M30.9ULN0HfHgj7-DMrL22WrzDPd8z3ZxXqtmc7kFvx_Tq0
+
+
+### //  get All Products in one Orders
+GET http://localhost:8000/api/orders/2
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI0MDA2NjEsImV4cCI6MTY0MjQwMDcyMX0._oDp_cv4-Mx1Ln5gjbeiq-fUzBincF2IAwaRhETwG-8
+
+
+### //  get All Products in one Orders
+PUT http://localhost:8000/api/orders/6
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI4MjY0MDcsImV4cCI6MTY0MjgyNjQ2N30.VW_LaNauA42TeZm53GQ_LL1xVzWtb25oNOCyTOf6zHY
+
+{
+    "send":1,
+    "success":1
+}
+
+### //  get All Products in one Orders
+DELETE  http://localhost:8000/api/orders/4
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI1ODQyNzUsImV4cCI6MTY0MjU4NDMzNX0.QkxmdMhb3kMlIykoKSyEHfs7qmHa7BuUmAKsetzMhxg

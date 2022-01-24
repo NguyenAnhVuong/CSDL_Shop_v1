@@ -1,0 +1,81 @@
+@import '../../../style/variable.scss';
+
+
+.wrapbox-heading-account {
+    padding: 10px 0 15px
+;
+}
+.wrapbox-heading-account .header-page .h1_login {
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: initial;
+    color: #d61114;
+   
+    text-align: center;
+}
+.wrapbox-content-account {
+    
+    padding-top: 40px;
+    text-align: center;
+    
+}
+.large_form{
+    margin-bottom: 20px;
+}
+
+.userbox input[type=email], .userbox input[type=password] {
+    width: 42%;
+    height: 55px;
+    border: 1px solid transparent;
+    background: #ededed;
+    color: #080808;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 15px;
+    //outline: none;
+}
+.userbox .action_bottom {
+     margin-top: 30px;
+}
+
+
+.action_account_custommer .req_pass {
+    margin-left: 30px;
+    margin-right: 170px;
+    font-size: 15px;
+    padding-top: 30px;
+    line-height:20px;
+    text-align: left;
+   
+}
+.action_account_custommer .action_bottom, .action_account_custommer .req_pass {
+    display: inline-block;
+    vertical-align: middle;
+    color: #959898;
+    font-weight: 500;
+}
+.userbox .action_bottom .btn {
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0 30px;  
+    height: 55px;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: #001f9c;
+  
+}
+.wrapbox-heading-account .header-page:after {
+    content: "";
+    background: #000;
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

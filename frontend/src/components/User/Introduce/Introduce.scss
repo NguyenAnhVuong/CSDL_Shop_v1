@@ -1,0 +1,17 @@
+@import '../../../style/variable.scss';
+
+.introduce{
+    font-size: 1.5rem;
+    margin-top: calc(#{$header-height} + 80px);
+    margin-bottom: 8px;
+    .title{
+        color: $primary-color; 
+        text-align: left;
+        font-size: 3rem;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+    .description{
+        margin-bottom: 20px;
+    }
+}

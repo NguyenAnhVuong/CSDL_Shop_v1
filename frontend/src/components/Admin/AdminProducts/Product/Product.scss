@@ -1,0 +1,51 @@
+#small-box {
+    width: 40px;
+}
+#small-box-2 {
+    width: 68px;
+}
+#avatar{
+    color: #fff;
+    background-color: #001f9c;
+    text-align: center;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+   padding: 2px 8px;
+   cursor: pointer;
+   border-radius: 6px;
+}
+#detail-img{
+    color: #fff;
+    background-color: #d61114;
+    text-align: center;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    padding: 0 8px;
+    border-radius: 6px;
+}
+
+.err-message-product{
+    color: red;
+    font-weight: 500;
+    width: 150px;
+    
+}
+
+.err-message-product.err-message-product-avatar{
+    margin-left: 3px;
+}
+
+.err-message-product.err-message-product-multiple-image{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.err-message-product.err-message-product-name{
+    margin-top: 5px;
+}
+
+.input-product {
+    border: 1px solid;
+    outline: none;
+}

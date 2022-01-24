@@ -1,0 +1,21 @@
+@import '../../../style/variable.scss';
+
+.h1-title{
+    color: #d61114;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-left:40px;
+}
+.tutorial-content p {
+    margin: 0 300px 10px 40px ;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+}
+.tutorial-content p strong{
+    font-weight: bold;
+}
+
+.content-page{
+    margin-top: calc(#{$header-height} + 80px);
+}

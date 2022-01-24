@@ -1,0 +1,58 @@
+
+//login
+POST http://localhost:8000/api/auth/login
+Content-Type:application/json
+
+{
+    "email":"csdl@gmail.com",
+    "password":"123456"
+}
+
+
+### // add item to cart 
+POST http://localhost:8000/api/cart/add 
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI4MjYzNzMsImV4cCI6MTY0MjgyNjQzM30.qLc6HfwBscyOuwXEZe7FIdtmS-xbQWUGsyhRYmb_Fl0
+
+{
+    "product_id":2,
+    "size":2,
+    "quantity":30
+}
+
+### // get all cart 
+GET  http://localhost:8000/api/cart/
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI1ODI0MjAsImV4cCI6MTY0MjU4MjQ4MH0.-019wMMwHO0R0117GxGtwBLAxmm0CBdokk7Wcf9IIzw
+
+
+### // increment item
+PUT http://localhost:8000/api/cart/increment
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI4MjYzMzUsImV4cCI6MTY0MjgyNjM5NX0.9xTgyT-r9qyasgrSvOIEzxlcpUmnptQJLY6VI7fFm8I
+
+{
+     "product_id":2,
+     "size":2
+}
+
+### // decrement item
+PUT http://localhost:8000/api/cart/decrement
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDIzMTQyMzMsImV4cCI6MTY0MjMxNDI5M30.HV8eZ3kWMNOU-d9nqPxlUvkjur8G3PmYBamqGYQhytY
+
+{
+     "product_id":3,
+     "size":3
+}
+
+
+### // delete item
+DELETE http://localhost:8000/api/cart/delete
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDIzMTM5NDIsImV4cCI6MTY0MjMxNDAwMn0.qzE8wxcZOdQVQHUpMT3HmD1QX8C8k4GgUlQeVzZCpuw
+
+{
+     "product_id":3,
+     "size":1
+}

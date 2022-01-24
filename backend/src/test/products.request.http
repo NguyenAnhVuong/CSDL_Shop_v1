@@ -1,0 +1,34 @@
+
+
+//login
+POST http://localhost:8000/api/auth/login
+Content-Type:application/json
+
+{
+    "email":"csdl@gmail.com",
+    "password":"123456"
+}
+###
+
+POST http://localhost:8000/api/products/
+Content-Type:application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDI0OTIzMjQsImV4cCI6MTY0MjQ5MjM4NH0.n-HQILOWsH4AgcGDyxJ8ZQL5xluqlUE6qBrrGduDxz0
+
+{
+    "product_name":"name test 4",
+    "product_type":"tee",
+    "product_avatar":"item1.jpg",
+    "new_product":1,
+    "quantity":[101230,331100,2321313],
+    "price":50,
+    "discount":90,
+    "bought_count":100,
+    "image_array":["aaaa1.jpg","aaaa.jpg2","aaaa3.jpg"]
+}
+
+
+
+###
+
+GET http://localhost:8000/api/products/1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNCwiY2FydF9pZCI6NiwiaWF0IjoxNjQxMDQxMDA1LCJleHAiOjE2NDEwNDEwNjV9.va-q8HBuVyX7Vl1ahkUab9GYXnilcGOyCm4YAL15be8

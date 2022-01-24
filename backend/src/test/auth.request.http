@@ -1,0 +1,43 @@
+//login
+POST http://localhost:8000/api/auth/login
+Content-Type:application/json
+
+{
+    "email":"csdl@gmail.com",
+    "password":"123456"
+}
+
+### // logout
+POST http://localhost:8000/api/auth/logout
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjYXJ0X2lkIjoxLCJpYXQiOjE2NDE4MzAxMDUsImV4cCI6MTY0MTgzMDE2NX0.9cZhlkO5AKpKa0EUPZTHrlLPzBoQKg9uyMeZECrGOrY
+
+
+
+
+### //forgot password
+POST http://localhost:8000/api/auth/forgot-password
+Content-Type:application/json
+
+{
+    "email":"daongocban1102@gmail.com"
+}
+
+### // reset password
+POST http://localhost:8000/api/auth/reset-password
+Content-Type:application/json
+
+{
+    "password":"Ban123",
+    "confirmPassword":"Ban123",
+    "token":"31025b550c3f767b9684b0d8f8aab086b213b455e1405ade5c3ac8850bf9261dda8ba296a4b220dd1f6c3b08e9b63ee9e4458223dfecf9e9323375d184e60e29",
+    "email":"daongocban1102@gmail.com"
+}
+
+### // check token khi quen mat khau
+POST http://localhost:8000/api/auth/check-token
+Content-Type:application/json
+
+{
+    "token" :"2bf8745c25f1c339cfefe35afc2c7af6242d8e848d21ca50746414fddabb688b290492398f5cd0d8e886cce408a3316a13c2841786357c26c412509cd3b856a0",
+    "email" : "daongocban1102@gmail.com"
+}
