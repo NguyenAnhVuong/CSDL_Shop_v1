@@ -42,6 +42,7 @@ const loginUser = async (req, res) => {
       secure: false,
       path: "/",
       sameSite: "strict",
+      maxAge: 99999999999
     })
     return res.status(200).json({
       token,
