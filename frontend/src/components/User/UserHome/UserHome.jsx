@@ -27,8 +27,9 @@ const UserHome = () => {
         autoplay: true,
         rows: 2,
         speed: 800,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         centerPadding: "0px",
+        pauseOnHover: false,
     };
     const settings_brand = {
         className: 'section-outstanding__slider',
@@ -39,9 +40,11 @@ const UserHome = () => {
         autoplay: true,
         rows: 2,
         speed: 800,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         centerPadding: "0px",
         dots: true,
+        pauseOnHover: false,
+
     }
     return (
         <>

@@ -42,6 +42,7 @@ const ProductDetails = (props) => {
     }
 
     const properties = {
+        dots: false,
         autoplay: false,
         indicators: true,
         transitionDuration: 500
